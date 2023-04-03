@@ -1,0 +1,71 @@
+* {
+	font-family: 'GFS Neohellenic', sans-serif;
+	box-sizing: border-box;
+	color: #333333;
+}
+
+html {
+	background-image: url("https://w.wallhaven.cc/full/l8/wallhaven-l88p5y.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body {
+	background-color: transparent;
+	min-width: 500px;
+	max-width: 700px;
+	margin: 60px auto 60px auto;
+}
+
+.image {
+	display: block;
+	height: auto;
+	width: 420px;
+	max-width: 100%;
+	object-fit: cover;
+	margin: auto;
+	border-radius: 40px;
+}
+
+.img-caption {
+	background-color: goldenrod;
+	border-radius: 40px 40px 0 0;
+	text-align: center;
+	font-size: 30px;
+	padding: 24px 0 20px 0;
+	margin: 60px 110px 0 110px;
+}
+
+.tribute-div {
+	background-color: antiquewhite;
+	border: 4px solid goldenrod;
+	border-radius: 40px;
+	max-width: 100%;
+	min-width: 100%;
+	font-size: 22px;
+}
+
+.tribute-info {
+	padding: 50px 40px 15px 40px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	padding-bottom: 50px;
+	text-decoration: none;
+	font-size: 26px;
+	color: goldenrod;
+}
+
+a:active {
+	color: #333333;
+}
+
+a:visited {
+	color: goldenrod;
+}
+
+a:hover {
+	color: gold;
+}

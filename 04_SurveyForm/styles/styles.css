@@ -1,0 +1,96 @@
+body {
+	background-image: url(https://w.wallhaven.cc/full/13/wallhaven-13d76w.png);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Fira Code';
+	padding: 20px;
+}
+
+h1, p, form {
+	text-align: center;
+	color: antiquewhite;
+}
+
+form {
+	width: 750px;
+	height: auto;
+	margin: auto auto;
+	padding-bottom: 25px;
+	background-color: rgba(10, 10, 10, 0.9);
+}
+
+label {
+	display: block;
+	margin: 0 0.5rem;
+}
+
+select {
+	font-size: medium;
+	margin: auto;
+	width: fit-content;
+	height: 2.375rem;
+	display: block;
+	padding: 0 0 0 10px;
+}
+
+textarea {
+	font-family: inherit;
+	padding: 10px 10px 10px 10px;
+	height: 125px;
+	width: 500px;
+}
+
+p[id="description"] {
+	font-size: medium;
+}
+
+p[type="license"] {
+	font-size: smaller;
+}
+
+label[id="number-label"] {
+	text-align: center;
+	padding: 0 4% 0 0;
+}
+
+label[for="checkbox"] {
+	text-align: justify;
+	padding: 0 0 2% 34%;
+}
+
+label[type="radio"] {
+	text-align: justify;
+	padding: 0 0 2% 38%;
+}
+
+input[type="number"] {
+	font-family: inherit;
+	font-size: medium;
+	text-align: center;
+	width: 60px;
+}
+
+input[type="submit"] {
+	font-family: inherit;
+	font-size: medium;
+	width: 200px;
+	height: 40px;
+}
+
+.form-group {
+	padding: 2% 0 2% 0;
+}
+
+.input-label {
+	padding: 1% 38% 1% 0;
+}
+
+.input-block {
+	font-family: inherit;
+	font-size: medium;
+	display: block;
+	padding: 0 2% 0 2%;
+	margin: auto;
+	width: 40%;
+	height: 2.375rem;
+}
